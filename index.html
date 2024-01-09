@@ -3,10 +3,10 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="description"
-			content="Latent Consistency Models: Synthesizing High-Resolution Images with Few-step Inference">
+			content="Make-A-Storyboard: A General Framework for Storyboard with Disentangled and Merged Control">
 		<meta name="keywords" content="LCM">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Latent Consistency Models: Synthesizing High-Resolution Images with Few-step Inference</title>
+		<title>Make-A-Storyboard: A General Framework for Storyboard with Disentangled and Merged Control</title>
 		<script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
 		<script>
 			window.dataLayer = window.dataLayer || [];
@@ -58,8 +58,8 @@
 			</div>
 			<div class="page-title"
 				style="padding:2vh 1vw 0vh 1vw;display:flex;flex-direction:column;align-items:center;">
-				<h1>Latent Consistency Models</h1>
-				<h2>Synthesizing High-Resolution Images with Few-step Inference</h2>
+				<h1>Make-A-Storyboard:</h1>
+				<h2>A General Framework for Storyboard with Disentangled and Merged Control</h2>
 			</div>
 			<div class="row">
 				<div class="col-12 link">
@@ -68,23 +68,20 @@
 							<div class="" style="display:flex;justify-content:center;width:100%;">
 								<div class="newTitlePc">
 									<div class="title-link">
-										<a href="https://luosiallen.github.io">Simian Luo*</a>
+										<a>Sitong Su*</a>
 									</div>
 									<div class="title-link">
-										<a href="https://scholar.google.com/citations?user=MSdTQToAAAAJ&hl=en">Yiqin
-											Tan*</a>
+										<a>Litao
+											Guo*</a>
 									</div>
 									<div class="title-link">
-										<a href="http://people.iiis.tsinghua.edu.cn/~huang/">Longbo Huang <span
-												class="code-text">&dagger;</span></a>
+										<a>Lianli Gao</a>
 									</div>
 									<div class="title-link">
-										<a href="https://people.iiis.tsinghua.edu.cn/~jianli/">Jian
-											Li <span class="code-text">&dagger;</span></a>
+										<a>Heng Tao Shen</a>
 									</div>
 									<div class="title-link">
-										<a href="https://hangzhaomit.github.io/">Hang Zhao <span
-												class="code-text">&dagger;</span></a>
+										<a>Jingkuan Song</a>
 									</div>
 									<div class="title-link mob-generated"></div>
 								</div>
@@ -92,22 +89,21 @@
 						</div>
 						<div class="newTitle mob-generated">
 							<div class="title-link">
-								<a href="https://luosiallen.github.io">Simian Luo*</a>
+								<a>Sitong Su*</a>
 							</div>
 							<div class="title-link">
-								<a href="https://scholar.google.com/citations?user=MSdTQToAAAAJ&hl=en">Yiqin
-									Tan*</a>
+								<a>Litao
+									Guo*</a>
 							</div>
 							<div class="title-link">
-								<a href="http://people.iiis.tsinghua.edu.cn/~huang/">Longbo
-									Huang <span class="code-text">&dagger;</span> </a>
+								<a>Lianli
+									Gao</a>
 							</div>
 							<div class="title-link">
-								<a href="https://people.iiis.tsinghua.edu.cn/~jianli/">Jian
-									Li <span class="code-text">&dagger;</span></a>
+								<a>Heng Tao Shen</a>
 							</div>
 							<div class="title-link">
-								<a href="https://hangzhaomit.github.io/">Hang Zhao <span class="code-text">&dagger;</span></a>
+								<a>Jingkuan Song</a>
 							</div>
 							<div class="title-link mob-generated"></div>
 						</div>
@@ -117,13 +113,10 @@
 			<div class="background-block row newBtnLayout">
 				<div class="newBtnLayout-shadow">
 					<div class="col-12">
-						<div class="mob-inst-text" style="padding:0 0 10px 0;text-align:center;font-size:30px;">Institute
-							for Interdisciplinary
-							Information Sciences,
-							Tsinghua University</div>
+						<div class="mob-inst-text" style="padding:0 0 10px 0;text-align:center;font-size:30px;">University of Electronic Science and Technology of China (UESTC)</div>
 					</div>
 					<div class="button-flex">
-						<a href="https://arxiv.org/abs/2310.04378.pdf" class="button-link">
+						<a href="https://arxiv.org/abs/2312.07549.pdf" class="button-link">
 							<span class="icon">
 								<i class="ai ai-arxiv"></i>
 							</span>
@@ -146,7 +139,8 @@
 			</div>
 			<div class="row text-center">
 				<div class="col-12 mob-lcms-top lcms-text">
-					" LCMs: The next generation of generative models after Latent Diffusion Models (LDMs). "
+					"A storyboard is a visual representation of how a story
+will play out, scene by scene."
 				</div>
 			</div>
 			<div class="background-block row mob-bottom" style="padding-bottom:5vh;">
@@ -158,9 +152,23 @@
 				<div class="col-1"></div>
 				<div class="col-10 mob-col-12" style="padding:0;">
 					<div class="abstract-text">
-						We propose Latent Consistency Models (<strong>LCMs</strong>) to overcome the slow iterative
-						sampling process of Latent Diffusion models (LDMs), enabling fast inference with minimal steps
-						on any pre-trained LDMs (e.g Stable Diffusion).
+						Story Visualization aims to generate images aligned with story prompts,
+						reflecting the coherence of storybooks through visual consistency among
+						characters and scenes.Whereas current approaches exclusively concentrate
+						on characters and neglect the visual consistency among contextually correlated scenes,
+						resulting in independent character images without inter-image this http URL
+						tackle this issue, we propose a new presentation form for Story Visualization
+						called Storyboard, inspired by film-making, as illustrated in Fig.1.Specifically,
+						a Storyboard unfolds a story into visual representations scene by scene. Within
+						each scene in Storyboard, characters engage in activities at the same location,
+						necessitating both visually consistent scenes and characters.For Storyboard
+						, we design a general framework coined as Make-A-Storyboard that applies disentangled
+						control over the consistency of contextual correlated characters and scenes
+						and then merge them to form harmonized images.Extensive experiments demonstrate
+						1) Effectiveness.the effectiveness of the method in story alignment, character
+						consistency, and scene correlation; 2) Generalization. Our method could be seamlessly
+						integrated into mainstream Image Customization methods, empowering them with the
+						capability of story visualization.
 					</div>
 					<div class="abstract-text">
 						Viewing the guided reverse diffusion process as solving an <strong>augmented probability flow
