@@ -1307,4 +1307,19 @@ will play out, scene by scene."
 			mySwiper32.slideTo(index);
 		}
 	</script>
+
+    <script>
+        var videos = document.getElementsByClassName("clickplay");
+        for (var i = 0; i < videos.length; i++) {
+          videos[i].addEventListener("click", function() {
+            this.play();
+          });
+          videos[i].addEventListener("ended", function() {
+            this.pause();
+            this.currentTime = 0;
+          });
+        }
+        </script>
+
+
 </html>
